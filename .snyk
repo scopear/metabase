@@ -1,0 +1,109 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - npm > request > extend:
+        patched: '2022-10-07T17:18:23.753Z'
+    - react-markdown > unified > extend:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-registry-client > request > extend:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-lifecycle > node-gyp > request > extend:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > extend:
+        patched: '2022-10-07T17:18:23.753Z'
+  'npm:hoek:20180212':
+    - npm > request > hawk > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > request > hawk > boom > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > request > hawk > sntp > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-registry-client > request > hawk > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-registry-client > request > hawk > boom > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-registry-client > request > hawk > sntp > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-lifecycle > node-gyp > request > hawk > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-lifecycle > node-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-registry-client > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T17:18:23.753Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-profile > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2022-10-07T17:18:23.753Z'
+  SNYK-JS-LODASH-567746:
+    - regenerator > @babel/core > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > @babel/core > @babel/traverse > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > regenerator-preset > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > regenerator-preset > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > regenerator-preset > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > regenerator-preset > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > regenerator-preset > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - regenerator > regenerator-preset > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - react-sortable-hoc > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - react-dnd > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - react-dnd-html5-backend > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - react-redux > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - redux > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - redux-actions > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - react-dnd > dnd-core > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+    - react-dnd-html5-backend > dnd-core > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+  'npm:lodash:20180130':
+    - npm > cli-table2 > lodash:
+        patched: '2022-10-07T17:18:23.753Z'
+  'npm:stringstream:20180511':
+    - npm > request > stringstream:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-registry-client > request > stringstream:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > npm-lifecycle > node-gyp > request > stringstream:
+        patched: '2022-10-07T17:18:23.753Z'
+    - npm > libcipm > npm-lifecycle > node-gyp > request > stringstream:
+        patched: '2022-10-07T17:18:23.753Z'
